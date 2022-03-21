@@ -40,7 +40,7 @@ const Edit = (props) =>{
 
     return(
         <div>
-            {isForm? <p>form</p>:<button onClick = {clickEdit}>Edit</button> }
+            {isForm? <p>form</p>:<button className = "deleter" onClick = {clickEdit}>Edit</button> }
         </div>
     )
 

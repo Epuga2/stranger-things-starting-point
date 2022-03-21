@@ -32,16 +32,18 @@ const Profile = ()  =>{
     
     return(
         <div>
-            <button onClick = {createUser}>Test</button>
             {viewMessages? 
             <button onClick = {clickHandler}>Hide Messages</button> :
             <button onClick = {clickHandler}>View Messages</button>}
             
             {posts.map(post => 
                 
-                <div key ={post._id}>
-                    <h2>{post.title}</h2>
+                <div className = 'userPosts'key ={post._id}>
                     
+                    <h2 className = 'ptitle'>{post.title}</h2>
+                    <p className='pdescription'>Description: {post.description}</p>
+                    <p className='pprice'>Price: {post.price}</p>
+                    <p className='plocation'>Location: {post.location}</p>
                     <div> 
                         {viewMessages? post.messages.map(message => 
                         <MessageViewer key = {message._id} messageId = {message._id} messageContent = {message.content} messageFromUser = {message.fromUser.username}/>
@@ -51,7 +53,8 @@ const Profile = ()  =>{
 
                     <Edit title = {post.title} description = {post.description} price = {post.price} location = {post.location}/>
                     <Delete id = {post._id} />
-                </div>)}
+                </div>) }
+                
             
             
         </div>
