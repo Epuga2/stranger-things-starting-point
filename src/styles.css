@@ -1,3 +1,217 @@
-h1{
-    color:blue;
+.main {
+    margin: 0px;
+    padding: 0px;
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+    border: solid cadetblue 5px;
+    justify-content: center;
+}
+.postTitle {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-decoration: underline;
+    width: 100%;
+    background-color: bisque;
+    margin: 0px;
+}
+.postPeice {
+    display: flex;
+    margin: 2px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.messageButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.mssButton {
+    font-size: large;
+    background-color: cadetblue;
+    box-shadow: 4px 3px 5px gray;
+}
+.welcomeAndLog {
+    display: flex;
+}
+.logInPhrase {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    background-color: cadetblue;
+    padding-right: 20px;
+    justify-content: space-between;
+    color: azure;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: flex-end;
+}
+.pgLinkHead {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    width: 50%;
+    font-size: x-large;
+    padding-left: 10px;
+}
+.pgLink {
+    color: azure;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: 600;
+    border: solid wheat 1px;
+    box-shadow: 2px 2px 3px black;
+}
+.welcome {
+    background-color: cadetblue;
+    margin: 0;
+    justify-self: flex-start;
+    width: 50%;
+    font-size: large;
+    padding-left: 20px;
+    color: azure;
+}
+.logoutButton {
+    font-size: large;
+    background-color: gainsboro;
+    box-shadow: 4px 3px gray;
+}
+.searchBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.searchBarButton {
+    font-size: large;
+    background-color: gainsboro;
+    box-shadow: 4px 3px 5px gray;
+    margin: 10px;
+}
+.searchBarBar {
+    width: 50%;
+    border: solid black 2px;
+}
+.deleter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteButton {
+    width: 50%;
+    font-size: large;
+    background-color: cadetblue;
+    box-shadow: 4px 3px 5px gray;
+    margin-bottom: 10px;
+}
+.loginbar {
+    border: solid black 2px;
+    margin: 10px
+}
+.loginer {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    border: solid cadetblue 5px;
+}
+.regForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid cadetblue 5px;
+    background-color: bisque;
+}
+.regin {
+    width: 30%;
+    margin-top: 10px;
+}
+.regsub {
+    font-size: large;
+    background-color: gainsboro;
+    box-shadow: 4px 3px gray;
+    margin: 10px
+}
+.createPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border: solid cadetblue 5px;
+    background-color: bisque;
+}
+.createTitle {
+    width: 20%;
+    margin: 10px
+}
+.createDescription {
+    width: 60%;
+    margin: 10px;
+}
+.createPrice {
+    width: 20%;
+    margin: 10px;
+}
+.createLocation {
+    width: 20%;
+    margin: 10px;
+}
+.createButton {
+    font-size: large;
+    background-color: gainsboro;
+    box-shadow: 4px 3px gray;
+    margin-bottom: 10px;
+}
+.userPosts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid cadetblue 5px;
+    background-color: bisque;
+}
+.ptitle {
+    align-self: center;
+    margin: 10px;
+}
+.pdescription {
+    margin: 0;
+    margin-left: 20px;
+    font-size: large;
+}
+.pprice {
+    margin: 0;
+    margin-left: 20px;
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.plocation {
+    margin: 0;
+    margin-left: 20px;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.pmessages {
+    margin: 0;
+    margin-left: 20px;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.pallmessages {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
